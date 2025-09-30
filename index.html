@@ -1,0 +1,78 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 30px 0;
+            font-size: 2.5rem;
+            color: #4CAF50;
+        }
+        .profiles {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .profile-card {
+            background: #222;
+            padding: 20px;
+            border-radius: 15px;
+            width: 200px;
+            transition: transform 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .profile-card:hover {
+            transform: scale(1.05);
+            background: #333;
+        }
+        .profile-card img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .profile-card h2 {
+            margin: 0;
+            font-size: 1.4rem;
+            color: #4CAF50;
+        }
+        .profile-card p {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose a Profile</h1>
+    <div class="profiles">
+        <a class="profile-card" href="/reels/profile/kirill/">
+            <img src="https://i.pravatar.cc/200?u=kirill" alt="Kirill">
+            <h2>Kirill</h2>
+            <p>Web Dev & Designer</p>
+        </a>
+        <a class="profile-card" href="/reels/profile/anna/">
+            <img src="https://i.pravatar.cc/200?u=anna" alt="Anna">
+            <h2>Anna</h2>
+            <p>Digital Artist</p>
+        </a>
+        <a class="profile-card" href="/reels/profile/max/">
+            <img src="https://i.pravatar.cc/200?u=max" alt="Max">
+            <h2>Max</h2>
+            <p>Photographer</p>
+        </a>
+    </div>
+</body>
+</html>
+```
